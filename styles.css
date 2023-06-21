@@ -1,0 +1,240 @@
+
+
+/* Header */
+header {
+    background-color: #021313;
+    padding: 20px 0;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li:hover {
+    color: #c7c7c7;
+    transition: color 0.2s ease-in-out;
+  }
+
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  
+  h1 {
+    color: #021313;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+  
+  h2 {
+    color: #020f0f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #021617;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  p {
+    line-height: 2;
+  }
+  
+  hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  a {
+    color: #031c1d;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #eaf6f6;
+  }
+  
+  .top-container {
+    background-color: #a5f0f3;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .middle-container {
+    margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: #9adef1;
+    padding: 50px 0 20px;
+  }
+  
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+
+  
+  .pro {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  
+  .top-cloud {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 40%;
+    z-index: 0;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    z-index: 0;
+  }
+ 
+  
+  .code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  
+
+  
+  .btn {
+    background: #02191a;
+    background-image: -webkit-linear-gradient(top, #03191a, #020c0c);
+    background-image: -moz-linear-gradient(top, #031b1c, #011314);
+    background-image: -ms-linear-gradient(top, #032122, #041d1e);
+    background-image: -o-linear-gradient(top, #062526, #021818);
+    background-image: linear-gradient(to bottom, #042122, #052627);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #031b18;
+    background-image: -webkit-linear-gradient(top, #021513, #041614);
+    background-image: -moz-linear-gradient(top, #02110f, #031311);
+    background-image: -ms-linear-gradient(top, #062823, #031714);
+    background-image: -o-linear-gradient(top, #061f1c, #051e1a);
+    background-image: linear-gradient(to bottom, #031c18, #031815);
+    text-decoration: none;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+  
+
+  .rounded-image{
+   
+        border-radius: 50%;
+        width: 200px; 
+  height: 200px
+
+  }
+  .mountain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    z-index: 1;
+    max-height: 410px; /* Adjust the max-height as per your preference */
+    object-fit: cover;
+    object-position: center; /* Adjust the position as needed */
+  }
+  
+  .title-text {
+    position: relative;
+    z-index: 2;
+  }
+  
+.typing2 img{
+    width: 100%; /* Adjust the width as needed */
+    max-width: 250px; /* Adjust the maximum width as needed */
+    height: 220px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* .typing {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+  .coding {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .chillies {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .hot-wings {
+    grid-area: 2 / 1 / 3 / 2;
+  } */
